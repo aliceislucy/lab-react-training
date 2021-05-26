@@ -1,0 +1,55 @@
+--------------------------------------------------------------------------------
+QUESTIONS
+--------------------------------------------------------------------------------
+
+In index.js   we have an import of index.css, why would we import a css file in the index.js file ? to target the whole doc ? kind of like using * in css ?
+
+--------------------------------------------------------------------------------
+
+I'm a little lost about what dev mode is. In react doc they said "For performance reasons, propTypes is only checked in dev mode."
+What do they mean and how do I switch to dev mode ?
+
+--------------------------------------------------------------------------------
+
+In my notes (which I will share) I wrote :
+
+"if you write :
+this.setState({ counter: this.state.counter + 1})
+
+it will be asynchronous ---> will update the view but not the state immediately (so you won't see the change in your console right away)"
+
+always log state in render || dev tools
+
+this.setState({
+   counter: this.state.counter + 1,
+}, () => {
+    all the code you want to do with updated state
+})
+
+next.js react (framework) SEO for ex
+
+nouvelle version 
+
+framework et library
+
+
+--------------------------------------------------------------------------------
+Why don't we put the () after the function handleClick ?
+
+<button onClick={this.handleClick}> + </button>
+
+Because otherwise you execute it and that's not what youw ant
+
+pas de parenthese dans eventHandler
+
+
+
+hint for Likes 
+
+state = counter   don't forget the s for like
+
+
+
+Hints for clickable pic
+
+you display this image or this image if you click
